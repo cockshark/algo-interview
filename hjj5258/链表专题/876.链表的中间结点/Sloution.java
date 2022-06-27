@@ -54,17 +54,4 @@ class Solution {
         }
         return head;
     }
-
-    select * from user
-
-            left join  on
-
-    left join  on (
-    ${ classForm})
-
-
-
-    classForm = select * from userxxxxx
-    select * from userxxxxxselect * from userxxxxxselect * from userxxxxx
-    select * from userxxxxx
 }
