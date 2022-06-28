@@ -23,7 +23,7 @@
 - [83. 删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/)(保留 1 个)
 - [82. 删除排序链表中的重复元素 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/)（不保留）
 - [237. 删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list/)(简单)-思维变通下
-- 华为面试题- 删除无序链表中的重复项-保留一个（letcode 1863 属于会员题）—— 哈希/递归
+- 华为面试题- 删除无序链表中的重复项-保留一个（letcode 1836 属于会员题）—— 哈希/递归
 - [24. 两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/)（腾讯社招）
 - [146. LRU 缓存](https://leetcode.cn/problems/lru-cache/)(用双向链表)
 - [460. LFU 缓存](https://leetcode.cn/problems/lfu-cache/)(哈希表+双向链表)
