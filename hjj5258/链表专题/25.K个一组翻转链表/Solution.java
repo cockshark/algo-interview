@@ -70,4 +70,48 @@ class Solution {
 
         return prevNode;
     }
+
+    /*============================ 解法二，虚拟头节点 ===================== */
+    public ListNode reverseKGroup(ListNode head, int k) {
+        // 够着虚拟头节点，便于操作
+        ListNode hair = new ListNode(0);
+        hair.next = head;
+        ListNode prevNode = hair;
+
+        while(head != null){
+            ListNode tail = prevNode;
+            for(int i = 0; i<k;i++){
+                tail = tail.next;
+                if(tail == null){
+                    return hair.next;
+                }
+            }
+
+            ListNode nex = tail.next;
+            ListNode[] reverse = reverse(head, tail);
+            head = reverse[0];
+            tail = reverse[1];
+
+            // 把子链表重新接回原链表
+            prevNode.next = head;
+            tail.next = nex;
+            prevNode = tail;
+            head = tail.next;
+        }
+
+        return hair.next;
+    }
+
+    public ListNode[] reverse(ListNode head, ListNode tail) {
+        ListNode prev = tail.next;
+        ListNode p = head;
+        while (prev != tail) {
+            ListNode nex = p.next;
+            p.next = prev;
+            prev = p;
+            p = nex;
+        }
+        // 返回头尾指针，便于后续操作
+        return new ListNode[]{tail, head};
+    }
 }
