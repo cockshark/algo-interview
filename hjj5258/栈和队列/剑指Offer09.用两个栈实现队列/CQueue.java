@@ -1,3 +1,4 @@
+package aigo.com.yz;
 class CQueue {
     /**
      * 分析：队列是先进先出，栈是先进后出，那么用两个栈则应该是 如 stack 1 后在 pop 到 stack 2
