@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/01.手撕链表实现" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/141.环形链表" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/146.LRU缓存" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/160.相交链表" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19.删除链表的倒数第N个结点" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/203.移除链表元素" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/206.反转链表" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/234.回文链表" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/237.删除链表中的节点" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/24.两两交换链表中的节点" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/25.K个一组翻转链表" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/328.奇偶链表" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/82.删除排序链表中的重复元素II" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/83.删除排序链表中的重复元素" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/876.链表的中间结点" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/剑指Offer06.从尾到头打印链表" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/剑指Offer22.链表中倒数第k个节点" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
