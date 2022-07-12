@@ -28,6 +28,7 @@
 - [146. LRU 缓存](https://leetcode.cn/problems/lru-cache/)(用双向链表)
 - [460. LFU 缓存](https://leetcode.cn/problems/lfu-cache/)(哈希表+双向链表)
 - [432. 全 O(1) 的数据结构](https://leetcode.cn/problems/all-oone-data-structure/)(哈希表+双向链表)
+
 ### 第三周-栈和队列
 
 - [剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)（简单）
@@ -36,7 +37,7 @@
 - [1441. 用栈操作构建数组](https://leetcode.cn/problems/build-an-array-with-stack-operations/)
 - [面试题 03.05. 栈排序](https://leetcode-cn.com/problems/sort-of-stacks-lcci/)（中等）
 - [155. 最小栈](https://leetcode-cn.com/problems/min-stack/)（简单）
-- [面试题 03.01. 三合一](https://leetcode-cn.com/problems/three-in-one-lcci/)（简单） 
+- [面试题 03.01. 三合一](https://leetcode-cn.com/problems/three-in-one-lcci/)（简单）
 - [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)（简单）
 - [面试题 16.26. 计算器](https://leetcode-cn.com/problems/calculator-lcci/)（中等）
 - [772. 基本计算器 III](https://leetcode-cn.com/problems/basic-calculator-iii/)（困难 力扣会员，比上一题多了括号）
@@ -48,7 +49,7 @@
 - [面试题 08.06. 汉诺塔问题](https://leetcode.cn/problems/hanota-lcci/)
 - [剑指 Offer II 036. 后缀表达式](https://leetcode.cn/problems/8Zf90G/)
 - [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode.cn/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)
-- [剑指 Offer 53 - II. 0～n-1中缺失的数字](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof/)
+- [剑指 Offer 53 - II. 0 ～ n-1 中缺失的数字](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof/)
 - [剑指 Offer 56 - I. 数组中数字出现的次数](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/submissions/)
 - [剑指 Offer 56 - II. 数组中数字出现的次数 II](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/)(考虑状态机)
 - [剑指 Offer II 004. 只出现一次的数字 ](https://leetcode.cn/problems/WGki4K/)
@@ -56,7 +57,7 @@
 - [剑指 Offer II 076. 数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2/)
 - [剑指 Offer II 083. 没有重复元素集合的全排列](https://leetcode.cn/problems/VvJkup/)
 - [剑指 Offer II 084. 含有重复元素集合的全排列](https://leetcode.cn/problems/7p8L0Z/)
-- [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)（中等） 单调栈 
+- [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)（中等） 单调栈
 - [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)（困难）单调栈
 - [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)（困难）单调栈
 - [面试题 03.06. 动物收容所](https://leetcode-cn.com/problems/animal-shelter-lcci/)（中等） 队列
