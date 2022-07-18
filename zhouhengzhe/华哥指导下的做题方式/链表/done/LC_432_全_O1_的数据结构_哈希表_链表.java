@@ -1,4 +1,4 @@
-package com.zhz.hua.week2;
+package zhouhengzhe.华哥指导下的做题方式.链表.done;
 
 public class LC_432_全_O1_的数据结构_哈希表_链表 {
     //==== 不限制O(1)的情况下 before======
