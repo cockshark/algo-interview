@@ -1,6 +1,6 @@
 package com.zhz.hua.week2;
 
-// public class JZ_Offer_22_链表中倒数第k个节点 {
+public class JZ_Offer_22_链表中倒数第k个节点 {
     public ListNode getKthFromEnd(ListNode head, int k) {
         if (head == null || k == 0) {
             return null;
@@ -26,4 +26,5 @@ package com.zhz.hua.week2;
             fast = fast.next;
         }
         return slow.next;
+    }
 }
