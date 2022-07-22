@@ -1,4 +1,4 @@
-package com.zhz.hua.week2;
+package zhouhengzhe.华哥指导下的做题方式.链表.done;
 
 public class LC_287_删除链表中的节点 {
     public void deleteNode(ListNode node) {
