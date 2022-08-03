@@ -89,6 +89,52 @@ class Solution {
 
 ```
 
+```python
+class Solution:
+    indexMap = {}
+
+    def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
+        """
+        现在判断**是否为合法的出入栈序列**就可以转换为**判断给一个树的前序和中序，判断这棵树能否还原为一个二叉树**
+        如果能够还原那么就是合法的 如果不能那么就是非法的
+
+        :param pushed:
+        :param popped:
+        :return:
+        """
+        for idx, node in enumerate(popped):
+            self.indexMap[popped[idx]] = idx
+
+        return self._isValidTree(pushed, 0, len(pushed) - 1, popped, 0, len(popped) - 1)
+
+    def _isValidTree(self, pushed: List[int], pushl: int, pushr: int, poped: List[int], popl: int, popr: int) -> bool:
+        """
+        递归判断是可还原一棵二叉树
+        pushed 作为前序序列，popped 作为中序序列是否可以构成二叉树
+        :param pushed:
+        :param pushl:
+        :param pushr:
+        :param poped:
+        :param popl:
+        :param popr:
+        :return:
+        """
+        # tree  是 空的
+        if pushl > pushr or popl > popr:
+            return True
+
+        # 根节点
+        root = pushed[pushl]
+        # 找到根节点值在中序序列下标
+        idx = self.indexMap.get(root)
+        # 如果下标不在中序列的区间， 表示无法构成二叉树
+        if idx < popl or idx > popr:
+            return False
+        #  左子树有效 && 右子树有效
+        return self._isValidTree(pushed, pushl + 1, pushl + idx - popl, poped, popl, idx - 1) and self._isValidTree(
+            pushed, pushl + idx - popl + 1, pushr, poped, idx + 1, popr)
+```
+
 #### 方法二：辅助栈
 
 push:1 ,2 ,3 ,4 ,5
