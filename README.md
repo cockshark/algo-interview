@@ -52,7 +52,7 @@
 - [剑指 Offer 53 - II. 0 ～ n-1 中缺失的数字](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof/)
 - [剑指 Offer 56 - I. 数组中数字出现的次数](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/submissions/)
 - [剑指 Offer 56 - II. 数组中数字出现的次数 II](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/)(考虑状态机)
-- [1901. 寻找峰值 II](https://leetcode.cn/problems/find-a-peak-element-ii/)
+- [1901. 寻找峰值 II](https://leetcode.cn/problems/find-a-peak-element-ii/)(二分)
 - [剑指 Offer II 004. 只出现一次的数字 ](https://leetcode.cn/problems/WGki4K/)
 - [剑指 Offer II 070. 排序数组中只出现一次的数字](https://leetcode.cn/problems/skFtm2/)
 - [剑指 Offer II 076. 数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2/)
